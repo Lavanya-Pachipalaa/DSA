@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class BinaryNonRecursive {
     public static int binary_recursive(int arr[], int key, int start, int end) {
 
-        while (start < end) {
+        while (start <= end) {
             int mid = (start + end) / 2;
 
             if (arr[mid] == key) {
@@ -39,3 +39,4 @@ public class BinaryNonRecursive {
         sc.close();
     }
 }
+
